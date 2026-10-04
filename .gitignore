@@ -1,0 +1,32 @@
+# Environment Variables
+     .env
+     .env.local
+     .env.*.local
+
+     # Backend (Spring Boot)
+     backend/target/
+     backend/.mvn/
+     backend/build/
+     *.class
+     *.jar
+     *.war
+
+     # Frontend (Next.js)
+     frontend/node_modules/
+     frontend/.next/
+     frontend/out/
+     frontend/build/
+
+     # AI Service (Python)
+     ai_service/__pycache__/
+     ai_service/venv/
+     ai_service/env/
+     *.pyc
+
+     # Docker/IDE
+     .idea/
+     .vscode/
+     *.suo
+     *.user
+     postgres_data/
+     redis_data/
