@@ -1,9 +1,10 @@
 package com.leadflow.chat.repository;
 
-     import com.leadflow.chat.entity.Message;
-     import org.springframework.data.jpa.repository.JpaRepository;
-     import org.springframework.stereotype.Repository;
+import com.leadflow.chat.entity.Message;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import java.util.UUID;
 
-     @Repository
-     public interface MessageRepository extends JpaRepository<Message, UUID> {
-     }
+@Repository
+public interface MessageRepository extends JpaRepository<Message, UUID> {
+}
